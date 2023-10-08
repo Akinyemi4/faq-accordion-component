@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+  </head>
+  <body>
+    <section class="container">
+      <section class="accordion-header">
+        <object
+          data="images/bg-pattern-mobile.svg"
+          type="image/svg+xml"
+          class="pattern-bg"
+          id="pattern-bg--mobile"
+        ></object>
+
+        <object
+          data="images/illustration-woman-online-desktop.svg"
+          type="image/svg+xml"
+          class="pattern-img"
+          id="desktop-svg"
+        ></object>
+
+        <object
+          data="images/illustration-woman-online-mobile.svg"
+          type="image/svg+xml"
+          class="pattern-img"
+          id="mobile-svg"
+        ></object>
+      </section>
+
+      <section class="accordion-text">
+        <h1 class="main-heading">FAQ</h1>
+        <div class="accordion">
+          <article>
+            <button class="question-container">
+              <p class="question">How many team members can I invite?</p>
+              <svg
+                width="10"
+                height="7"
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon-btn"
+              >
+                <path
+                  d="M1 .799l4 4 4-4"
+                  stroke="#F47B56"
+                  stroke-width="2"
+                  fill="none"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <div class="answer-container hidden">
+              <p class="answer">
+                You can invite up to 2 additional users on the Free plan. There
+                is no limit on team members for the Premium plan.
+              </p>
+            </div>
+          </article>
+
+          <article>
+            <button class="question-container">
+              <p class="question">What is the maximum file upload size?</p>
+              <svg
+                width="10"
+                height="7"
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon-btn"
+              >
+                <path
+                  d="M1 .799l4 4 4-4"
+                  stroke="#F47B56"
+                  stroke-width="2"
+                  fill="none"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <div class="answer-container hidden">
+              <p class="answer">
+                No more than 2GB. All files in your account must fit your
+                allotted storage space.
+              </p>
+            </div>
+          </article>
+
+          <article>
+            <button class="question-container">
+              <p class="question">How do I reset my password?</p>
+              <svg
+                width="10"
+                height="7"
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon-btn"
+              >
+                <path
+                  d="M1 .799l4 4 4-4"
+                  stroke="#F47B56"
+                  stroke-width="2"
+                  fill="none"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <div class="answer-container hidden">
+              <p class="answer">
+                Click “Forgot password” from the login page or “Change password”
+                from your profile page. A reset link will be emailed to you.
+              </p>
+            </div>
+          </article>
+          <article>
+            <button class="question-container">
+              <p class="question">Can I cancel my subscription?</p>
+              <svg
+                width="10"
+                height="7"
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon-btn"
+              >
+                <path
+                  d="M1 .799l4 4 4-4"
+                  stroke="#F47B56"
+                  stroke-width="2"
+                  fill="none"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <div class="answer-container hidden">
+              <p class="answer">
+                Yes! Send us a message and we’ll process your request no
+                questions asked.
+              </p>
+            </div>
+          </article>
+          <article>
+            <button class="question-container">
+              <p class="question">Do you provide additional support?</p>
+              <svg
+                width="10"
+                height="7"
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon-btn"
+              >
+                <path
+                  d="M1 .799l4 4 4-4"
+                  stroke="#F47B56"
+                  stroke-width="2"
+                  fill="none"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <div class="answer-container hidden">
+              <p class="answer">
+                Chat and email support is available 24/7. Phone lines are open
+                during normal business hours.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <object
+        data="images/illustration-box-desktop.svg"
+        type="image/svg+xml"
+        id="desktop-box"
+      ></object>
+    </section>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script src="script.js"></script>
+  </body>
+</html>
